@@ -1,0 +1,316 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Amplifier_Audio:LM386 U1
+U 1 1 5DBC0E7F
+P 4500 2350
+F 0 "U1" H 4650 2600 50  0000 L CNN
+F 1 "LM386" H 4650 2500 50  0000 L CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 4600 2450 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm386.pdf" H 4700 2550 50  0001 C CNN
+	1    4500 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x02 J2
+U 1 1 5DBCBE14
+P 5650 1350
+F 0 "J2" H 5730 1342 50  0000 L CNN
+F 1 "Screw_Terminal_01x02" H 5730 1251 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 5650 1350 50  0001 C CNN
+F 3 "~" H 5650 1350 50  0001 C CNN
+	1    5650 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x02 J1
+U 1 1 5DBCD20D
+P 3100 2550
+F 0 "J1" H 3018 2225 50  0000 C CNN
+F 1 "Screw_Terminal_01x02" H 3018 2316 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 3100 2550 50  0001 C CNN
+F 3 "~" H 3100 2550 50  0001 C CNN
+	1    3100 2550
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 5DBCE9C4
+P 3300 2650
+F 0 "#PWR0101" H 3300 2400 50  0001 C CNN
+F 1 "GND" H 3305 2477 50  0000 C CNN
+F 2 "" H 3300 2650 50  0001 C CNN
+F 3 "" H 3300 2650 50  0001 C CNN
+	1    3300 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 5DBCF1FB
+P 3750 2850
+F 0 "#PWR0102" H 3750 2600 50  0001 C CNN
+F 1 "GND" H 3755 2677 50  0000 C CNN
+F 2 "" H 3750 2850 50  0001 C CNN
+F 3 "" H 3750 2850 50  0001 C CNN
+	1    3750 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 5DBD0166
+P 5900 2900
+F 0 "#PWR0103" H 5900 2650 50  0001 C CNN
+F 1 "GND" H 5905 2727 50  0000 C CNN
+F 2 "" H 5900 2900 50  0001 C CNN
+F 3 "" H 5900 2900 50  0001 C CNN
+	1    5900 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 5DBD0CA7
+P 4400 2750
+F 0 "#PWR0104" H 4400 2500 50  0001 C CNN
+F 1 "GND" H 4405 2577 50  0000 C CNN
+F 2 "" H 4400 2750 50  0001 C CNN
+F 3 "" H 4400 2750 50  0001 C CNN
+	1    4400 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 2750 4400 2700
+$Comp
+L power:GND #PWR0105
+U 1 1 5DBD12E8
+P 5100 1750
+F 0 "#PWR0105" H 5100 1500 50  0001 C CNN
+F 1 "GND" H 5250 1650 50  0000 C CNN
+F 2 "" H 5100 1750 50  0001 C CNN
+F 3 "" H 5100 1750 50  0001 C CNN
+	1    5100 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5450 1350 5100 1350
+$Comp
+L Device:CP C4
+U 1 1 5DBD2382
+P 5100 1500
+F 0 "C4" H 5218 1546 50  0000 L CNN
+F 1 "220uF" H 5218 1455 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 5138 1350 50  0001 C CNN
+F 3 "~" H 5100 1500 50  0001 C CNN
+	1    5100 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C2
+U 1 1 5DBD3498
+P 4650 1750
+F 0 "C2" V 4905 1750 50  0000 C CNN
+F 1 "10uF" V 4814 1750 50  0000 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 4688 1600 50  0001 C CNN
+F 3 "~" H 4650 1750 50  0001 C CNN
+	1    4650 1750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:CP C3
+U 1 1 5DBD46B9
+P 4500 3100
+F 0 "C3" H 4618 3146 50  0000 L CNN
+F 1 "10uF" H 4618 3055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 4538 2950 50  0001 C CNN
+F 3 "~" H 4500 3100 50  0001 C CNN
+	1    4500 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C6
+U 1 1 5DBD57DE
+P 5700 2250
+F 0 "C6" V 5955 2250 50  0000 C CNN
+F 1 "220uF" V 5864 2250 50  0000 C CNN
+F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 5738 2100 50  0001 C CNN
+F 3 "~" H 5700 2250 50  0001 C CNN
+	1    5700 2250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4500 2050 4500 1750
+Wire Wire Line
+	5100 1650 5100 1750
+Wire Wire Line
+	5100 1750 4800 1750
+Connection ~ 5100 1750
+Wire Wire Line
+	5100 1750 5450 1750
+Wire Wire Line
+	5450 1750 5450 1450
+$Comp
+L Device:R R2
+U 1 1 5DBD8A2E
+P 5250 2500
+F 0 "R2" V 5350 2500 50  0000 C CNN
+F 1 "47" V 5450 2500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 5180 2500 50  0001 C CNN
+F 3 "~" H 5250 2500 50  0001 C CNN
+	1    5250 2500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C5
+U 1 1 5DBD9435
+P 5550 2650
+F 0 "C5" H 5665 2696 50  0000 L CNN
+F 1 "47n" H 5665 2605 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 5588 2500 50  0001 C CNN
+F 3 "~" H 5550 2650 50  0001 C CNN
+F 4 "GRM21BR72A473KA01L" H 5550 2650 50  0001 C CNN "ManufacturePartNumber"
+F 5 "0805 47nF 50V" H 5550 2650 50  0001 C CNN "PartNumber"
+	1    5550 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5550 2800 5900 2800
+Wire Wire Line
+	5900 2800 5900 2900
+Wire Wire Line
+	5000 2250 5000 2350
+Wire Wire Line
+	4800 2350 5000 2350
+Connection ~ 5000 2350
+Wire Wire Line
+	5000 2350 5000 2500
+Wire Wire Line
+	5100 2250 5000 2250
+Wire Wire Line
+	5100 2500 5000 2500
+$Comp
+L Device:Ferrite_Bead FB1
+U 1 1 5DBD7B70
+P 5250 2250
+F 0 "FB1" V 4950 2350 50  0000 C CNN
+F 1 "Ferrite_Bead" V 5050 2350 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 5180 2250 50  0001 C CNN
+F 3 "~" H 5250 2250 50  0001 C CNN
+	1    5250 2250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5400 2500 5550 2500
+Wire Wire Line
+	5550 2500 5550 2250
+Connection ~ 5550 2500
+Wire Wire Line
+	5850 2250 6000 2250
+Wire Wire Line
+	6000 2250 6000 2350
+$Comp
+L Device:C C1
+U 1 1 5DBE0A9F
+P 3750 2650
+F 0 "C1" H 3865 2696 50  0000 L CNN
+F 1 "2n2" H 3865 2605 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 3788 2500 50  0001 C CNN
+F 3 "~" H 3750 2650 50  0001 C CNN
+F 4 "0805-2.2nF 50V" H 3750 2650 50  0001 C CNN "PartNumber"
+F 5 "GRM2165C1H222GA01D" H 3750 2650 50  0001 C CNN "ManufacturePartNumber"
+	1    3750 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 2250 4100 2250
+Wire Wire Line
+	4100 2250 4100 2700
+Wire Wire Line
+	4100 2700 4400 2700
+Connection ~ 4400 2700
+Wire Wire Line
+	4400 2700 4400 2650
+Wire Wire Line
+	4200 2450 3750 2450
+Wire Wire Line
+	3750 2450 3750 2500
+$Comp
+L Device:R R1
+U 1 1 5DBE53BF
+P 3550 2450
+F 0 "R1" V 3650 2450 50  0000 C CNN
+F 1 "10k" V 3750 2350 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 3480 2450 50  0001 C CNN
+F 3 "~" H 3550 2450 50  0001 C CNN
+	1    3550 2450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3700 2450 3750 2450
+Connection ~ 3750 2450
+Wire Wire Line
+	3400 2450 3300 2450
+Wire Wire Line
+	5400 2250 5550 2250
+Connection ~ 5550 2250
+Wire Wire Line
+	3300 2550 3300 2650
+Wire Wire Line
+	4400 2050 4400 1350
+Wire Wire Line
+	4400 1350 5100 1350
+Connection ~ 5100 1350
+Wire Wire Line
+	3750 2850 3750 2800
+$Comp
+L Device:R R3
+U 1 1 5DBEF94A
+P 4900 3050
+F 0 "R3" H 4800 2950 50  0000 C CNN
+F 1 "1k" H 4800 3050 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 4830 3050 50  0001 C CNN
+F 3 "~" H 4900 3050 50  0001 C CNN
+	1    4900 3050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4500 3250 4900 3250
+Wire Wire Line
+	4900 3250 4900 3200
+Wire Wire Line
+	4500 2650 4500 2950
+Wire Wire Line
+	4600 2650 4600 2900
+Wire Wire Line
+	4600 2900 4900 2900
+$Comp
+L Connector:AudioJack3 J3
+U 1 1 5DBC7FBE
+P 6200 2450
+F 0 "J3" H 5920 2383 50  0000 R CNN
+F 1 "ST-025" H 5920 2474 50  0000 R CNN
+F 2 "Connector_Audio:Jack_3.5mm_CUI_SJ1-3533NG_Horizontal_CircularHoles" H 6200 2450 50  0001 C CNN
+F 3 "~" H 6200 2450 50  0001 C CNN
+	1    6200 2450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6000 2450 6000 2350
+Connection ~ 6000 2350
+Wire Wire Line
+	6000 2550 5900 2550
+Wire Wire Line
+	5900 2550 5900 2800
+Connection ~ 5900 2800
+$EndSCHEMATC

@@ -1,0 +1,13 @@
+Reference, Quantity, Value, Footprint, Datasheet, ManufacturePartNumber, PartNumber
+C1 ,1,"2n2","Capacitor_SMD:C_0805_2012Metric","~","GRM2165C1H222GA01D","0805-2.2nF 50V"
+C2 C3 ,2,"10uF","Capacitor_SMD:C_1206_3216Metric","~"
+C4 ,1,"220uF","Capacitor_THT:CP_Radial_D5.0mm_P2.50mm","~"
+C5 ,1,"47n","Capacitor_SMD:C_0805_2012Metric","~","GRM21BR72A473KA01L","0805 47nF 50V"
+C6 ,1,"220uF","Capacitor_THT:CP_Radial_D6.3mm_P2.50mm","~"
+FB1 ,1,"Ferrite_Bead","Resistor_SMD:R_0805_2012Metric","~"
+J2 J1 ,2,"Screw_Terminal_01x02","Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical","~"
+J3 ,1,"ST-025","Connector_Audio:Jack_3.5mm_CUI_SJ1-3533NG_Horizontal_CircularHoles","~"
+R1 ,1,"10k","Resistor_SMD:R_0805_2012Metric","~"
+R2 ,1,"47","Resistor_SMD:R_0805_2012Metric","~"
+R3 ,1,"1k","Resistor_SMD:R_0805_2012Metric","~"
+U1 ,1,"LM386","Package_SO:SOIC-8_3.9x4.9mm_P1.27mm","http://www.ti.com/lit/ds/symlink/lm386.pdf"
