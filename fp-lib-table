@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name SSD1306-0.91-OLED-4pin-128x32)(type KiCad)(uri /home/dmitry/Packages/KiCad_Libs/SSD1306-0.91-OLED-4pin-128x32.pretty)(options "")(descr ""))
+  (lib (name tea5767)(type Legacy)(uri /home/dmitry/Packages/KiCad_Libs/TEA5767/tea5767.mod)(options "")(descr ""))
+)

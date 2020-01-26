@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name SSD1306_OLED-0.91-128x32)(type Legacy)(uri /home/dmitry/Packages/KiCad_Libs/KiCad-SSD1306_OLED-0.91-128x32-master/SSD1306_OLED-0.91-128x32.lib)(options "")(descr ""))
+  (lib (name tea5767)(type Legacy)(uri /home/dmitry/Packages/KiCad_Libs/TEA5767/tea5767.lib)(options "")(descr ""))
+)
